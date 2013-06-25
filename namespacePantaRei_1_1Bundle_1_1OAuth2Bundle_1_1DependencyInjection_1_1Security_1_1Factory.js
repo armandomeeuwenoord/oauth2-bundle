@@ -1,0 +1,4 @@
+var namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory =
+[
+    [ "ResourceFactory", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory" ]
+];
