@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['foomodelmanager',['FooModelManager',['../classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Model_1_1FooModelManager.html',1,'PantaRei::Bundle::OAuth2Bundle::Tests::Model']]]
+  ['foomodelmanager',['FooModelManager',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Model_1_1FooModelManager.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::Model']]]
 ];

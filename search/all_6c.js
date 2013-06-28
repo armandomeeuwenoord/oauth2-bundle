@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['load',['load',['../classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1OAuth2Extension.html#a9e89ba4c9793088dc3050305084f79a2',1,'PantaRei::Bundle::OAuth2Bundle::DependencyInjection::OAuth2Extension']]]
+  ['load',['load',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html#a9e89ba4c9793088dc3050305084f79a2',1,'Pantarei::Bundle::Oauth2Bundle::DependencyInjection::Oauth2Extension']]],
+  ['loaduserbyusername',['loadUserByUsername',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1UserManager.html#a09423ffc9f178a746b6eefbf6a36697e',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::UserManager']]]
 ];

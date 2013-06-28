@@ -1,4 +1,5 @@
 var namespaces =
 [
-    [ "PantaRei", "namespacePantaRei.html", "namespacePantaRei" ]
+    [ "Pantarei", "namespacePantarei.html", "namespacePantarei" ],
+    [ "Proxies", "namespaceProxies.html", "namespaceProxies" ]
 ];

@@ -1,0 +1,6 @@
+var namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller =
+[
+    [ "AuthorizeController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1AuthorizeController.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1AuthorizeController" ],
+    [ "DefaultController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1DefaultController.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1DefaultController" ],
+    [ "ResourceController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController" ]
+];

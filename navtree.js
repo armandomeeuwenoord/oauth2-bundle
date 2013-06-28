@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "PantaRei/Bundle/OAuth2Bundle", "index.html", [
+  [ "Pantarei/Bundle/Oauth2Bundle", "index.html", [
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
@@ -26,8 +26,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"3df1170c64d9a2078b447b92ea8c_8php.html",
-"classappTestDebugProjectContainer.html#a292c1c0fb90c34c86616986e9629cc53"
+"0e3a01b06d752cd93dd86b6208d8b881f93c080b_8cache_8php.html",
+"bfc62572a7ffdaebad5ecbf088501f09aa9b70a9_0Bredirect__uri_8cache_8php_source.html",
+"classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1WebTestCase.html#ac39b08beb1abc87ef3f463b559d4c7fe",
+"classappTestDebugProjectContainer.html#a1eb9a299c10af27d90ce3fe5f7867fd2",
+"feb54fedce1718bddcf440486677f37b7f5a00c9_0Bscope_8cache_8php.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

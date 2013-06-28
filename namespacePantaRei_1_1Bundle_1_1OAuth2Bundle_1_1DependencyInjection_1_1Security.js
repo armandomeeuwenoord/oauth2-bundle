@@ -1,4 +1,0 @@
-var namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security =
-[
-    [ "Factory", "namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory.html", "namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory" ]
-];

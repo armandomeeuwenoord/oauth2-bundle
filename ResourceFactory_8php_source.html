@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>PantaRei/Bundle/OAuth2Bundle: DependencyInjection/Security/Factory/ResourceFactory.php Source File</title>
+<title>Pantarei/Bundle/Oauth2Bundle: DependencyInjection/Security/Factory/ResourceFactory.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">PantaRei/Bundle/OAuth2Bundle
+   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('ResourceFactory_8php_source.html','');
 <a href="ResourceFactory_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of the pantarei/oauth2 package.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of the pantarei/oauth2-bundle package.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * (c) Wong Hoi Sing Edison &lt;hswong3i@pantarei-design.com&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('ResourceFactory_8php_source.html','');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory.html">   12</a></span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\DependencyInjection\Security\Factory;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory.html">   12</a></span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\DependencyInjection\Security\Factory;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Bundle\SecurityBundle\DependencyInjection\Security\Factory\SecurityFactoryInterface;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Component\Config\Definition\Builder\NodeDefinition;</div>
@@ -125,50 +125,39 @@ $(document).ready(function(){initNavTree('ResourceFactory_8php_source.html','');
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use Symfony\Component\DependencyInjection\DefinitionDecorator;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;use Symfony\Component\DependencyInjection\Reference;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">ResourceFactory</a> <span class="keyword">implements</span> SecurityFactoryInterface</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">ResourceFactory</a> <span class="keyword">implements</span> SecurityFactoryInterface</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">create</a>(</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        ContainerBuilder $container,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        $id,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $config,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        $userProvider,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        $defaultEntryPoint</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    )</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        $providerId = <span class="stringliteral">&#39;security.authentication.provider.oauth2.&#39;</span>.$id;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        $container</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            -&gt;setDefinition($providerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;oauth2.security.authentication.provider&#39;</span>))</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            -&gt;replaceArgument(0, <span class="keyword">new</span> Reference($userProvider))</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            ;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        $listenerId = <span class="stringliteral">&#39;security.authentication.listener.oauth2.&#39;</span>.$id;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        $listener = $container-&gt;setDefinition($listenerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;oauth2.security.authentication.listener&#39;</span>));</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> array($providerId, $listenerId, $defaultEntryPoint);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">getPosition</a>()</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;pre_auth&#39;</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">create</a>(ContainerBuilder $container, $id, $config, $userProvider, $defaultEntryPoint)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        $providerId = <span class="stringliteral">&#39;security.authentication.provider.oauth2_resource.&#39;</span> . $id;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $container-&gt;setDefinition($providerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;oauth2_resource.security.authentication.provider&#39;</span>));</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        $listenerId = <span class="stringliteral">&#39;security.authentication.listener.oauth2_resource.&#39;</span> . $id;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        $container-&gt;setDefinition($listenerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;oauth2_resource.security.authentication.listener&#39;</span>));</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> array($providerId, $listenerId, $defaultEntryPoint);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">getPosition</a>()</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;pre_auth&#39;</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">getKey</a>()</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;oauth2_resource&#39;</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">addConfiguration</a>(NodeDefinition $node)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">   47</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">getKey</a>()</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;oauth2.resource&#39;</span>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">   52</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">addConfiguration</a>(NodeDefinition $node)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_12a5b6c939b32c4a76cd30f613e73e39.html">DependencyInjection</a></li><li class="navelem"><a class="el" href="dir_80b081aba797d2c8ec27aa8c10583fb1.html">Security</a></li><li class="navelem"><a class="el" href="dir_0d6820868694d3ee44670bd82212b781.html">Factory</a></li><li class="navelem"><a class="el" href="ResourceFactory_8php.html">ResourceFactory.php</a></li>
+    <li class="navelem"><a class="el" href="dir_0c1dfd16fc1f36fdf893f4a862241c02.html">DependencyInjection</a></li><li class="navelem"><a class="el" href="dir_ad88a2dcb296054c26ba88762caa74b3.html">Security</a></li><li class="navelem"><a class="el" href="dir_27c31e219ad015f0aefed1536c18b9ff.html">Factory</a></li><li class="navelem"><a class="el" href="ResourceFactory_8php.html">ResourceFactory.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
