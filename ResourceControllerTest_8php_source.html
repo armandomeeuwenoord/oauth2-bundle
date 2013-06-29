@@ -119,19 +119,21 @@ $(document).ready(function(){initNavTree('ResourceControllerTest_8php_source.htm
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Tests\Controller;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1WebTestCase.html">Pantarei\Bundle\Oauth2Bundle\Tests\WebTestCase</a>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html">ResourceControllerTest</a> <span class="keyword">extends</span> WebTestCase</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html">ResourceControllerTest</a> <span class="keyword">extends</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1WebTestCase.html">WebTestCase</a></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html#a1b254c78ccbed89b72d24aeba6790e74">   18</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html#a1b254c78ccbed89b72d24aeba6790e74">testEcho</a>()</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        $client = static::createClient();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        $crawler = $client-&gt;request(<span class="stringliteral">&#39;GET&#39;</span>, <span class="stringliteral">&#39;/resource/foo&#39;</span>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;foo&#39;</span>, $client-&gt;getResponse()-&gt;getContent());</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">        #$this-&gt;assertTrue($crawler-&gt;filter(&#39;html:contains(&quot;Hello Fabien&quot;)&#39;)-&gt;count() &gt; 0);</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        $parameters = array();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        $server = array(</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="stringliteral">&#39;HTTP_Authorization&#39;</span> =&gt; implode(<span class="charliteral">&#39; &#39;</span>, array(<span class="stringliteral">&#39;Bearer&#39;</span>, <span class="stringliteral">&#39;eeb5aa92bbb4b56373b9e0d00bc02d93&#39;</span>)),</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        );</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        $client = static::createClient();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $crawler = $client-&gt;request(<span class="stringliteral">&#39;GET&#39;</span>, <span class="stringliteral">&#39;/resource/foo&#39;</span>, $parameters, array(), $server);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;foo&#39;</span>, $client-&gt;getResponse()-&gt;getContent());</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

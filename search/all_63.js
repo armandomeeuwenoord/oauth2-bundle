@@ -1,14 +1,16 @@
 var searchData=
 [
+  ['c4f48ea5121b38e518d8e8e4c6cd2b75468a0c5c_23authorizeaction_2ecache_2ephp',['c4f48ea5121b38e518d8e8e4c6cd2b75468a0c5c#authorizeAction.cache.php',['../c4f48ea5121b38e518d8e8e4c6cd2b75468a0c5c#authorizeAction_8cache_8php.html',1,'']]],
+  ['c4f48ea5121b38e518d8e8e4c6cd2b75468a0c5c_2ecache_2ephp',['c4f48ea5121b38e518d8e8e4c6cd2b75468a0c5c.cache.php',['../c4f48ea5121b38e518d8e8e4c6cd2b75468a0c5c_8cache_8php.html',1,'']]],
   ['c861acd978c2e7b7576b0d5b603ec7c3e5fc4978_2ecache_2ephp',['c861acd978c2e7b7576b0d5b603ec7c3e5fc4978.cache.php',['../c861acd978c2e7b7576b0d5b603ec7c3e5fc4978_8cache_8php.html',1,'']]],
-  ['cfc022671fa9715481016292861c5d345ab803a1_2ecache_2ephp',['cfc022671fa9715481016292861c5d345ab803a1.cache.php',['../cfc022671fa9715481016292861c5d345ab803a1_8cache_8php.html',1,'']]],
+  ['cfb5073fb6a73e837a5b54ca6859_2ephp',['cfb5073fb6a73e837a5b54ca6859.php',['../cfb5073fb6a73e837a5b54ca6859_8php.html',1,'']]],
   ['client',['Client',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['client',['Client',['../classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['client_2ephp',['Client.php',['../Client_8php.html',1,'']]],
   ['clientmanager',['ClientManager',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['clientmanager_2ephp',['ClientManager.php',['../ClientManager_8php.html',1,'']]],
-  ['code',['Code',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['code',['Code',['../classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
+  ['code',['Code',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['code_2ephp',['Code.php',['../Code_8php.html',1,'']]],
   ['codemanager',['CodeManager',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1CodeManager.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['codemanager_2ephp',['CodeManager.php',['../CodeManager_8php.html',1,'']]],
@@ -22,6 +24,5 @@ var searchData=
   ['createcode',['createCode',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1CodeManager.html#a70f6defb7575281062c62bd81d5377c3',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::CodeManager']]],
   ['createrefreshtoken',['createRefreshToken',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshTokenManager.html#a4972ea187f720ca90245b586580c7105',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::RefreshTokenManager']]],
   ['createschema',['createSchema',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1WebTestCase.html#aefaabd1ae47fdd9288aded26bb1d1fe0',1,'Pantarei::Bundle::Oauth2Bundle::Tests::WebTestCase']]],
-  ['createscope',['createScope',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeManager.html#add3c1c348c84b13c61c5dfe83308aff2',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::ScopeManager']]],
-  ['createuser',['createUser',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1UserManager.html#a967982ee98f05287bbdba812f6016947',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::UserManager']]]
+  ['createscope',['createScope',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeManager.html#add3c1c348c84b13c61c5dfe83308aff2',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::ScopeManager']]]
 ];

@@ -117,9 +117,13 @@ $(document).ready(function(){initNavTree('bootstrap_8php_source.html','');});
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="bootstrap_8php.html#ab832f4c463ee1c9ba2e9464265f7ea3b">   12</a></span>&#160;<a class="code" href="bootstrap_8php.html#ab832f4c463ee1c9ba2e9464265f7ea3b">$loader</a> = require __DIR__ . <span class="stringliteral">&#39;/../vendor/autoload.php&#39;</span>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;use Doctrine\Common\Annotations\AnnotationRegistry;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;\Doctrine\Common\Annotations\AnnotationRegistry::registerLoader(<span class="stringliteral">&#39;class_exists&#39;</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="code" href="bootstrap_8php.html#a306a0fb634be9ceadb089e1e91274ed0">   14</a></span>&#160;<a class="code" href="bootstrap_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a> = require __DIR__ . <span class="stringliteral">&#39;/../vendor/autoload.php&#39;</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;AnnotationRegistry::registerLoader(array(<a class="code" href="bootstrap_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a>, <span class="stringliteral">&#39;loadClass&#39;</span>));</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordflow">return</span> <a class="code" href="bootstrap_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a>;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

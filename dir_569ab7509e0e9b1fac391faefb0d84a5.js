@@ -35,11 +35,5 @@ var dir_569ab7509e0e9b1fac391faefb0d84a5 =
     ] ],
     [ "ScopeManager.php", "ScopeManager_8php.html", [
       [ "ScopeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeManager.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeManager" ]
-    ] ],
-    [ "User.php", "User_8php.html", [
-      [ "User", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1User.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1User" ]
-    ] ],
-    [ "UserManager.php", "UserManager_8php.html", [
-      [ "UserManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1UserManager.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1UserManager" ]
     ] ]
 ];

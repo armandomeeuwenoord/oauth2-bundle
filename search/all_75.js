@@ -6,10 +6,5 @@ var searchData=
   ['updatecode',['updateCode',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1CodeManager.html#aaacd2ec2e728194c717a85816d8f0bd6',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::CodeManager']]],
   ['updaterefreshtoken',['updateRefreshToken',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshTokenManager.html#a524bf099469e60b988dd5d1657c5f3b1',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::RefreshTokenManager']]],
   ['updatescope',['updateScope',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeManager.html#a3f0de28e8454e0ad165f34d32fd9d659',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::ScopeManager']]],
-  ['updateuser',['updateUser',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1UserManager.html#a066930eb893c556aee1af6e9e49976f9',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity::UserManager']]],
-  ['user',['User',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1User.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
-  ['user',['User',['../classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1User.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
-  ['user_2ephp',['User.php',['../User_8php.html',1,'']]],
-  ['usermanager',['UserManager',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1UserManager.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
-  ['usermanager_2ephp',['UserManager.php',['../UserManager_8php.html',1,'']]]
+  ['user',['User',['../classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1User.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]]
 ];
