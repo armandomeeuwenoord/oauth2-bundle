@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['48a0054932ac35844ece6948891834fc02c30180_2ecache_2ephp',['48a0054932ac35844ece6948891834fc02c30180.cache.php',['../48a0054932ac35844ece6948891834fc02c30180_8cache_8php.html',1,'']]]
-];

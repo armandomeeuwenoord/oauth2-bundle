@@ -1,25 +1,17 @@
 var searchData=
 [
-  ['_5f_5fcg_5f_5f',['__CG__',['../namespaceProxies_1_1____CG____.html',1,'Proxies']]],
   ['bundle',['Bundle',['../namespacePantarei_1_1Bundle.html',1,'Pantarei']]],
-  ['bundle',['Bundle',['../namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle.html',1,'Proxies::__CG__::Pantarei']]],
   ['controller',['Controller',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller.html',1,'Pantarei::Bundle::Oauth2Bundle']]],
   ['controller',['Controller',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests']]],
   ['controller',['Controller',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle']]],
   ['dependencyinjection',['DependencyInjection',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection.html',1,'Pantarei::Bundle::Oauth2Bundle']]],
   ['entity',['Entity',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity.html',1,'Pantarei::Bundle::Oauth2Bundle']]],
-  ['entity',['Entity',['../namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle']]],
   ['entity',['Entity',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle']]],
   ['factory',['Factory',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory.html',1,'Pantarei::Bundle::Oauth2Bundle::DependencyInjection::Security']]],
   ['model',['Model',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Model.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests']]],
-  ['oauth2bundle',['Oauth2Bundle',['../namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle.html',1,'Proxies::__CG__::Pantarei::Bundle']]],
   ['oauth2bundle',['Oauth2Bundle',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle.html',1,'Pantarei::Bundle']]],
   ['pantarei',['Pantarei',['../namespacePantarei.html',1,'']]],
-  ['pantarei',['Pantarei',['../namespaceProxies_1_1____CG_____1_1Pantarei.html',1,'Proxies::__CG__']]],
-  ['proxies',['Proxies',['../namespaceProxies.html',1,'']]],
   ['security',['Security',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security.html',1,'Pantarei::Bundle::Oauth2Bundle::DependencyInjection']]],
   ['testbundle',['TestBundle',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests']]],
-  ['testbundle',['TestBundle',['../namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests']]],
-  ['tests',['Tests',['../namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle']]],
   ['tests',['Tests',['../namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests.html',1,'Pantarei::Bundle::Oauth2Bundle']]]
 ];

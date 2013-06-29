@@ -1,4 +1,0 @@
-var namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle =
-[
-    [ "Entity", "namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity.html", "namespaceProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity" ]
-];

@@ -1,7 +1,6 @@
 var searchData=
 [
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
-  ['refreshtoken',['RefreshToken',['../classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['refreshtoken',['RefreshToken',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['refreshtoken_2ephp',['RefreshToken.php',['../RefreshToken_8php.html',1,'']]],
   ['refreshtokenmanager',['RefreshTokenManager',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshTokenManager.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
