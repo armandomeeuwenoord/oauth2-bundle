@@ -1,0 +1,4 @@
+var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1ServerErrorExceptionTest =
+[
+    [ "testServerErrorException", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1ServerErrorExceptionTest.html#ab3d6284fa3e3458fc6e09a58665b09a5", null ]
+];

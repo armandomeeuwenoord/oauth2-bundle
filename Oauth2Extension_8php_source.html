@@ -119,48 +119,41 @@ $(document).ready(function(){initNavTree('Oauth2Extension_8php_source.html','');
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\DependencyInjection;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Component\DependencyInjection\ContainerBuilder;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Component\Config\FileLocator;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use Symfony\Component\HttpKernel\DependencyInjection\Extension;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use Symfony\Component\DependencyInjection\Loader;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * This is the class that loads and manages your bundle configuration</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html">Oauth2Extension</a> <span class="keyword">extends</span> Extension</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{<span class="comment"></span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">    /**</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">     * {@inheritDoc}</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html#a9e89ba4c9793088dc3050305084f79a2">   29</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html#a9e89ba4c9793088dc3050305084f79a2">load</a>(array $configs, ContainerBuilder $container)</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        $configuration = <span class="keyword">new</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Configuration.html">Configuration</a>();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        $config = $this-&gt;processConfiguration($configuration, $configs);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="bootstrap_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a> = <span class="keyword">new</span> Loader\YamlFileLoader($container, <span class="keyword">new</span> FileLocator(__DIR__.<span class="stringliteral">&#39;/../Resources/config&#39;</span>));</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="bootstrap_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a>-&gt;load(<span class="stringliteral">&#39;services.yml&#39;</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">// Add response type handler.</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">foreach</span> ($config[<span class="stringliteral">&#39;response_handler&#39;</span>] as $type =&gt; $handler) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            $container-&gt;get(<span class="stringliteral">&#39;oauth2.response_handler.factory&#39;</span>)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                -&gt;addResponseTypeHandler($type, $container-&gt;get($handler));</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Component\Config\FileLocator;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Component\DependencyInjection\ContainerBuilder;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use Symfony\Component\DependencyInjection\Loader;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use Symfony\Component\DependencyInjection\Reference;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;use Symfony\Component\HttpKernel\DependencyInjection\Extension;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * This is the class that loads and manages your bundle configuration</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html">Oauth2Extension</a> <span class="keyword">extends</span> Extension</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{<span class="comment"></span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">    /**</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">     * {@inheritDoc}</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html#a9e89ba4c9793088dc3050305084f79a2">   30</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html#a9e89ba4c9793088dc3050305084f79a2">load</a>(array $configs, ContainerBuilder $container)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        $configuration = <span class="keyword">new</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Configuration.html">Configuration</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        $config = $this-&gt;processConfiguration($configuration, $configs);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="autoload_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a> = <span class="keyword">new</span> Loader\YamlFileLoader($container, <span class="keyword">new</span> FileLocator(__DIR__.<span class="stringliteral">&#39;/../Resources/config&#39;</span>));</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="autoload_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a>-&gt;load(<span class="stringliteral">&#39;services.yml&#39;</span>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.model&#39;</span>, $config[<span class="stringliteral">&#39;model&#39;</span>]);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.response_handler&#39;</span>, $config[<span class="stringliteral">&#39;response_handler&#39;</span>]);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.grant_handler&#39;</span>, $config[<span class="stringliteral">&#39;grant_handler&#39;</span>]);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.token_handler&#39;</span>, $config[<span class="stringliteral">&#39;token_handler&#39;</span>]);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">// Add grant type handler.</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">foreach</span> ($config[<span class="stringliteral">&#39;grant_handler&#39;</span>] as $type =&gt; $handler) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            $container-&gt;get(<span class="stringliteral">&#39;oauth2.grant_handler.factory&#39;</span>)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                -&gt;addGrantTypeHandler($type, $container-&gt;get($handler));</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">// Addd token type handler.</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">foreach</span> ($config[<span class="stringliteral">&#39;token_handler&#39;</span>] as $type =&gt; $handler) {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            $container-&gt;get(<span class="stringliteral">&#39;oauth2.token_handler.factory&#39;</span>)</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                -&gt;addTokenTypeHandler($type, $container-&gt;get($handler));</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (!empty($config[<span class="stringliteral">&#39;user_provider&#39;</span>])) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            $container-&gt;getDefinition(<span class="stringliteral">&#39;oauth2.token_controller&#39;</span>)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                -&gt;replaceArgument(6, <span class="keyword">new</span> Reference($config[<span class="stringliteral">&#39;user_provider&#39;</span>]));</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -9,8 +9,8 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
@@ -27,7 +27,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AbstractAccessToken_8php.html",
-"classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1CodeManager.html#a0b4ad3219bfb96713faaf9efad83b47d"
+"classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1TokenControllerTest.html#a64c7d57ee16fd5385ed86945f0422747",
+"functions_func_0x66.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

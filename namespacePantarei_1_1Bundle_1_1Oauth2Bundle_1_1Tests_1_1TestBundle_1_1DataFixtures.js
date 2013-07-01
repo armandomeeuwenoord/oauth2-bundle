@@ -1,0 +1,4 @@
+var namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures =
+[
+    [ "ORM", "namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM.html", "namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM" ]
+];

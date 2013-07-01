@@ -1,19 +1,26 @@
 var hierarchy =
 [
-    [ "FooModelManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Model_1_1FooModelManager.html", null ],
+    [ "FooGrantTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1FooGrantTypeHandler.html", null ],
+    [ "FooResponseTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1FooResponseTypeHandler.html", null ],
+    [ "FooTokenTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooTokenTypeHandler.html", null ],
     [ "PHPUnit_Framework_TestCase", null, [
       [ "AutoloadTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1AutoloadTest.html", null ],
-      [ "ModelManagerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Model_1_1ModelManagerFactoryTest.html", null ]
-    ] ],
-    [ "SymfonyWebTestCase", null, [
-      [ "WebTestCase", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1WebTestCase.html", [
-        [ "AuthorizeControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizeControllerTest.html", null ],
-        [ "ResourceControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html", null ],
-        [ "WebTestCaseTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1WebTestCaseTest.html", null ]
-      ] ]
+      [ "AccessDeniedExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1AccessDeniedExceptionTest.html", null ],
+      [ "InvalidClientExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidClientExceptionTest.html", null ],
+      [ "InvalidGrantExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidGrantExceptionTest.html", null ],
+      [ "InvalidRequestExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidRequestExceptionTest.html", null ],
+      [ "InvalidScopeExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidScopeExceptionTest.html", null ],
+      [ "ServerErrorExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1ServerErrorExceptionTest.html", null ],
+      [ "TemporarilyUnavailableExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1TemporarilyUnavailableExceptionTest.html", null ],
+      [ "UnauthorizedClientExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1UnauthorizedClientExceptionTest.html", null ],
+      [ "UnsupportedGrantTypeExceptionTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1UnsupportedGrantTypeExceptionTest.html", null ],
+      [ "UnsupportedResponseTypeTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1UnsupportedResponseTypeTest.html", null ],
+      [ "GrantTypeHandlerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1GrantTypeHandlerFactoryTest.html", null ],
+      [ "ResponseTypeHandlerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html", null ],
+      [ "TokenTypeHandlerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1TokenTypeHandlerFactoryTest.html", null ]
     ] ],
     [ "AccessTokenInterface", null, [
-      [ "AbstractAccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AbstractAccessToken.html", [
+      [ "AbstractAccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractAccessToken.html", [
         [ "AccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", null ]
       ] ]
     ] ],
@@ -21,7 +28,7 @@ var hierarchy =
       [ "AccessTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessTokenManager.html", null ]
     ] ],
     [ "AuthorizeInterface", null, [
-      [ "AbstractAuthorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AbstractAuthorize.html", [
+      [ "AbstractAuthorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractAuthorize.html", [
         [ "Authorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", null ]
       ] ]
     ] ],
@@ -33,7 +40,7 @@ var hierarchy =
       [ "TestBundle", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1TestBundle.html", null ]
     ] ],
     [ "ClientInterface", null, [
-      [ "AbstractClient", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AbstractClient.html", [
+      [ "AbstractClient", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractClient.html", [
         [ "Client", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", null ]
       ] ]
     ] ],
@@ -41,7 +48,7 @@ var hierarchy =
       [ "ClientManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html", null ]
     ] ],
     [ "CodeInterface", null, [
-      [ "AbstractCode", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AbstractCode.html", [
+      [ "AbstractCode", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractCode.html", [
         [ "Code", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", null ]
       ] ]
     ] ],
@@ -53,6 +60,7 @@ var hierarchy =
     ] ],
     [ "Controller", null, [
       [ "AuthorizeController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1AuthorizeController.html", null ],
+      [ "TokenController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1TokenController.html", null ],
       [ "ResourceController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController.html", null ]
     ] ],
     [ "EntityRepository", null, [
@@ -66,22 +74,37 @@ var hierarchy =
     [ "Extension", null, [
       [ "Oauth2Extension", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html", null ]
     ] ],
+    [ "FixtureInterface", null, [
+      [ "AccessTokenFixture", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1AccessTokenFixture.html", null ],
+      [ "AuthorizeFixture", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1AuthorizeFixture.html", null ],
+      [ "ClientFixture", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1ClientFixture.html", null ],
+      [ "CodeFixture", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1CodeFixture.html", null ],
+      [ "RefreshTokenFixture", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1RefreshTokenFixture.html", null ],
+      [ "ScopeFixture", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1ScopeFixture.html", null ]
+    ] ],
+    [ "GrantTypeHandlerInterface", null, [
+      [ "BarGrantTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1BarGrantTypeHandler.html", null ]
+    ] ],
     [ "Kernel", null, [
       [ "AppKernel", "classAppKernel.html", null ]
     ] ],
-    [ "ModelManagerInterface", null, [
-      [ "BarModelManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Model_1_1BarModelManager.html", null ]
+    [ "ModelManagerFactoryInterface", null, [
+      [ "ModelManagerFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1ModelManagerFactory.html", null ],
+      [ "FooModelManagerFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html", null ]
     ] ],
     [ "RefreshTokenInterface", null, [
-      [ "AbstractRefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AbstractRefreshToken.html", [
+      [ "AbstractRefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractRefreshToken.html", [
         [ "RefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", null ]
       ] ]
     ] ],
     [ "RefreshTokenManagerInterface", null, [
       [ "RefreshTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshTokenManager.html", null ]
     ] ],
+    [ "ResponseTypeHandlerInterface", null, [
+      [ "BarResponseTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html", null ]
+    ] ],
     [ "ScopeInterface", null, [
-      [ "AbstractScope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AbstractScope.html", [
+      [ "AbstractScope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractScope.html", [
         [ "Scope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", null ]
       ] ]
     ] ],
@@ -91,5 +114,21 @@ var hierarchy =
     [ "SecurityFactoryInterface", null, [
       [ "ResourceFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html", null ],
       [ "TokenFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html", null ]
+    ] ],
+    [ "TokenTypeHandlerInterface", null, [
+      [ "BarTokenTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1BarTokenTypeHandler.html", null ]
+    ] ],
+    [ "WebTestCase", null, [
+      [ "AuthorizateControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html", null ],
+      [ "TokenControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1TokenControllerTest.html", null ],
+      [ "AuthorizationCodeGrantTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1AuthorizationCodeGrantTypeHandlerTest.html", null ],
+      [ "ClientCredentialsGrantTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1ClientCredentialsGrantTypeHandlerTest.html", null ],
+      [ "PasswordGrantTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1PasswordGrantTypeHandlerTest.html", null ],
+      [ "RefreshTokenGrantTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html", null ],
+      [ "Oauth2Test", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Oauth2Test.html", null ],
+      [ "CodeResponseTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResponseTypeHandlerTest.html", null ],
+      [ "TokenResponseTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1TokenResponseTypeHandlerTest.html", null ],
+      [ "BearerTokenTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1BearerTokenTypeHandlerTest.html", null ],
+      [ "MacTokenTypeHandlerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html", null ]
     ] ]
 ];

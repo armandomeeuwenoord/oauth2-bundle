@@ -1,0 +1,4 @@
+var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1UnauthorizedClientExceptionTest =
+[
+    [ "testUnauthorizedClientException", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1UnauthorizedClientExceptionTest.html#a5f4df361755bc10e0051610a3fbd440e", null ]
+];

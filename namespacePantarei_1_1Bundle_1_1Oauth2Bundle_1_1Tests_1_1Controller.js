@@ -1,5 +1,5 @@
 var namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller =
 [
-    [ "AuthorizeControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizeControllerTest.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizeControllerTest" ],
-    [ "ResourceControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1ResourceControllerTest" ]
+    [ "AuthorizateControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest" ],
+    [ "TokenControllerTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1TokenControllerTest.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1TokenControllerTest" ]
 ];
