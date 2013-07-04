@@ -19,25 +19,12 @@ var hierarchy =
       [ "ResponseTypeHandlerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html", null ],
       [ "TokenTypeHandlerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1TokenTypeHandlerFactoryTest.html", null ]
     ] ],
-    [ "Proxy", null, [
-      [ "AccessToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", null ],
-      [ "Authorize", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", null ],
-      [ "Client", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", null ],
-      [ "Code", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", null ],
-      [ "RefreshToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", null ],
-      [ "Scope", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", null ]
-    ] ],
-    [ "RedirectableUrlMatcher", null, [
-      [ "appTestUrlMatcher", "classappTestUrlMatcher.html", null ]
-    ] ],
     [ "AbstractToken", null, [
       [ "ClientToken", "classPantarei_1_1Oauth2_1_1Security_1_1Authentication_1_1Token_1_1ClientToken.html", null ]
     ] ],
     [ "AccessTokenInterface", null, [
       [ "AccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AccessToken.html", [
-        [ "AccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", [
-          [ "AccessToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", null ]
-        ] ]
+        [ "AccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", null ]
       ] ]
     ] ],
     [ "AccessTokenManagerInterface", null, [
@@ -45,9 +32,7 @@ var hierarchy =
     ] ],
     [ "AuthorizeInterface", null, [
       [ "Authorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Authorize.html", [
-        [ "Authorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", [
-          [ "Authorize", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", null ]
-        ] ]
+        [ "Authorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", null ]
       ] ]
     ] ],
     [ "AuthorizeManagerInterface", null, [
@@ -59,9 +44,7 @@ var hierarchy =
     ] ],
     [ "ClientInterface", null, [
       [ "Client", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Client.html", [
-        [ "Client", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", [
-          [ "Client", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", null ]
-        ] ]
+        [ "Client", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", null ]
       ] ]
     ] ],
     [ "ClientManagerInterface", null, [
@@ -69,9 +52,7 @@ var hierarchy =
     ] ],
     [ "CodeInterface", null, [
       [ "Code", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Code.html", [
-        [ "Code", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", [
-          [ "Code", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", null ]
-        ] ]
+        [ "Code", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", null ]
       ] ]
     ] ],
     [ "CodeManagerInterface", null, [
@@ -79,10 +60,6 @@ var hierarchy =
     ] ],
     [ "ConfigurationInterface", null, [
       [ "Configuration", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Configuration.html", null ]
-    ] ],
-    [ "Container", null, [
-      [ "appDevDebugProjectContainer", "classappDevDebugProjectContainer.html", null ],
-      [ "appTestDebugProjectContainer", "classappTestDebugProjectContainer.html", null ]
     ] ],
     [ "Controller", null, [
       [ "AuthorizeController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1AuthorizeController.html", null ],
@@ -120,9 +97,7 @@ var hierarchy =
     ] ],
     [ "RefreshTokenInterface", null, [
       [ "RefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1RefreshToken.html", [
-        [ "RefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", [
-          [ "RefreshToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", null ]
-        ] ]
+        [ "RefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", null ]
       ] ]
     ] ],
     [ "RefreshTokenManagerInterface", null, [
@@ -133,9 +108,7 @@ var hierarchy =
     ] ],
     [ "ScopeInterface", null, [
       [ "Scope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Scope.html", [
-        [ "Scope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", [
-          [ "Scope", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", null ]
-        ] ]
+        [ "Scope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", null ]
       ] ]
     ] ],
     [ "ScopeManagerInterface", null, [

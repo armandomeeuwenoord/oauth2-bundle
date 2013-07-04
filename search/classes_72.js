@@ -2,7 +2,6 @@ var searchData=
 [
   ['refreshtoken',['RefreshToken',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1RefreshToken.html',1,'Pantarei::Bundle::Oauth2Bundle::Entity']]],
   ['refreshtoken',['RefreshToken',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
-  ['refreshtoken',['RefreshToken',['../classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html',1,'Proxies::__CG__::Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::Entity']]],
   ['refreshtokenfixture',['RefreshTokenFixture',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1RefreshTokenFixture.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::TestBundle::DataFixtures::ORM']]],
   ['refreshtokengranttypehandlertest',['RefreshTokenGrantTypeHandlerTest',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html',1,'Pantarei::Bundle::Oauth2Bundle::Tests::GrantType']]],
   ['refreshtokenmanager',['RefreshTokenManager',['../classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1RefreshTokenManager.html',1,'Pantarei::Bundle::Oauth2Bundle::Entity']]],
