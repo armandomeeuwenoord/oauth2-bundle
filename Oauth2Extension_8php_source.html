@@ -141,25 +141,30 @@ $(document).ready(function(){initNavTree('Oauth2Extension_8php_source.html','');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        $config = $this-&gt;processConfiguration($configuration, $configs);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="autoload_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a> = <span class="keyword">new</span> Loader\YamlFileLoader($container, <span class="keyword">new</span> FileLocator(__DIR__.<span class="stringliteral">&#39;/../Resources/config&#39;</span>));</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="autoload_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a>-&gt;load(<span class="stringliteral">&#39;services.yml&#39;</span>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.model&#39;</span>, $config[<span class="stringliteral">&#39;model&#39;</span>]);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.response_handler&#39;</span>, $config[<span class="stringliteral">&#39;response_handler&#39;</span>]);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.grant_handler&#39;</span>, $config[<span class="stringliteral">&#39;grant_handler&#39;</span>]);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.token_handler&#39;</span>, $config[<span class="stringliteral">&#39;token_handler&#39;</span>]);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">if</span> (in_array($config[<span class="stringliteral">&#39;driver&#39;</span>], array(<span class="stringliteral">&#39;orm&#39;</span>))) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="autoload_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a>-&gt;load(sprintf(<span class="stringliteral">&#39;%s.yml&#39;</span>, $config[<span class="stringliteral">&#39;driver&#39;</span>]));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="autoload_8php.html#a306a0fb634be9ceadb089e1e91274ed0">$loader</a>-&gt;load(<span class="stringliteral">&#39;services.yml&#39;</span>);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (!empty($config[<span class="stringliteral">&#39;user_provider&#39;</span>])) {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            $container-&gt;getDefinition(<span class="stringliteral">&#39;oauth2.token_controller&#39;</span>)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                -&gt;replaceArgument(6, <span class="keyword">new</span> Reference($config[<span class="stringliteral">&#39;user_provider&#39;</span>]));</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.model&#39;</span>, $config[<span class="stringliteral">&#39;model&#39;</span>]);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.response_handler&#39;</span>, $config[<span class="stringliteral">&#39;response_handler&#39;</span>]);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.grant_handler&#39;</span>, $config[<span class="stringliteral">&#39;grant_handler&#39;</span>]);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        $container-&gt;setParameter(<span class="stringliteral">&#39;oauth2.token_handler&#39;</span>, $config[<span class="stringliteral">&#39;token_handler&#39;</span>]);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> (!empty($config[<span class="stringliteral">&#39;user_provider&#39;</span>])) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            $container-&gt;getDefinition(<span class="stringliteral">&#39;oauth2.token_controller&#39;</span>)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                -&gt;replaceArgument(6, <span class="keyword">new</span> Reference($config[<span class="stringliteral">&#39;user_provider&#39;</span>]));</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_433e0636c812d63fc26193ec5b4b58ba.html">DependencyInjection</a></li><li class="navelem"><a class="el" href="Oauth2Extension_8php.html">Oauth2Extension.php</a></li>
+    <li class="navelem"><a class="el" href="dir_0c1dfd16fc1f36fdf893f4a862241c02.html">DependencyInjection</a></li><li class="navelem"><a class="el" href="Oauth2Extension_8php.html">Oauth2Extension.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>

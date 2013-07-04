@@ -19,44 +19,70 @@ var hierarchy =
       [ "ResponseTypeHandlerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html", null ],
       [ "TokenTypeHandlerFactoryTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1TokenTypeHandlerFactoryTest.html", null ]
     ] ],
+    [ "Proxy", null, [
+      [ "AccessToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", null ],
+      [ "Authorize", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", null ],
+      [ "Client", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", null ],
+      [ "Code", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", null ],
+      [ "RefreshToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", null ],
+      [ "Scope", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", null ]
+    ] ],
+    [ "RedirectableUrlMatcher", null, [
+      [ "appTestUrlMatcher", "classappTestUrlMatcher.html", null ]
+    ] ],
+    [ "AbstractToken", null, [
+      [ "ClientToken", "classPantarei_1_1Oauth2_1_1Security_1_1Authentication_1_1Token_1_1ClientToken.html", null ]
+    ] ],
     [ "AccessTokenInterface", null, [
-      [ "AbstractAccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractAccessToken.html", [
-        [ "AccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", null ]
+      [ "AccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AccessToken.html", [
+        [ "AccessToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", [
+          [ "AccessToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessToken.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "AccessTokenManagerInterface", null, [
-      [ "AccessTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessTokenManager.html", null ]
+      [ "AccessTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AccessTokenManager.html", null ]
     ] ],
     [ "AuthorizeInterface", null, [
-      [ "AbstractAuthorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractAuthorize.html", [
-        [ "Authorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", null ]
+      [ "Authorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Authorize.html", [
+        [ "Authorize", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", [
+          [ "Authorize", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Authorize.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "AuthorizeManagerInterface", null, [
-      [ "AuthorizeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AuthorizeManager.html", null ]
+      [ "AuthorizeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AuthorizeManager.html", null ]
     ] ],
     [ "Bundle", null, [
       [ "Oauth2Bundle", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Oauth2Bundle.html", null ],
       [ "TestBundle", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1TestBundle.html", null ]
     ] ],
     [ "ClientInterface", null, [
-      [ "AbstractClient", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractClient.html", [
-        [ "Client", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", null ]
+      [ "Client", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Client.html", [
+        [ "Client", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", [
+          [ "Client", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Client.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "ClientManagerInterface", null, [
-      [ "ClientManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html", null ]
+      [ "ClientManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ClientManager.html", null ]
     ] ],
     [ "CodeInterface", null, [
-      [ "AbstractCode", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractCode.html", [
-        [ "Code", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", null ]
+      [ "Code", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Code.html", [
+        [ "Code", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", [
+          [ "Code", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Code.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "CodeManagerInterface", null, [
-      [ "CodeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1CodeManager.html", null ]
+      [ "CodeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1CodeManager.html", null ]
     ] ],
     [ "ConfigurationInterface", null, [
       [ "Configuration", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Configuration.html", null ]
+    ] ],
+    [ "Container", null, [
+      [ "appDevDebugProjectContainer", "classappDevDebugProjectContainer.html", null ],
+      [ "appTestDebugProjectContainer", "classappTestDebugProjectContainer.html", null ]
     ] ],
     [ "Controller", null, [
       [ "AuthorizeController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1AuthorizeController.html", null ],
@@ -64,12 +90,12 @@ var hierarchy =
       [ "ResourceController", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController.html", null ]
     ] ],
     [ "EntityRepository", null, [
-      [ "AccessTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessTokenManager.html", null ],
-      [ "AuthorizeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AuthorizeManager.html", null ],
-      [ "ClientManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html", null ],
-      [ "CodeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1CodeManager.html", null ],
-      [ "RefreshTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshTokenManager.html", null ],
-      [ "ScopeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeManager.html", null ]
+      [ "AccessTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AccessTokenManager.html", null ],
+      [ "AuthorizeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1AuthorizeManager.html", null ],
+      [ "ClientManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ClientManager.html", null ],
+      [ "CodeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1CodeManager.html", null ],
+      [ "RefreshTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1RefreshTokenManager.html", null ],
+      [ "ScopeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ScopeManager.html", null ]
     ] ],
     [ "Extension", null, [
       [ "Oauth2Extension", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Oauth2Extension.html", null ]
@@ -89,27 +115,31 @@ var hierarchy =
       [ "AppKernel", "classAppKernel.html", null ]
     ] ],
     [ "ModelManagerFactoryInterface", null, [
-      [ "ModelManagerFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1ModelManagerFactory.html", null ],
+      [ "ModelManagerFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html", null ],
       [ "FooModelManagerFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html", null ]
     ] ],
     [ "RefreshTokenInterface", null, [
-      [ "AbstractRefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractRefreshToken.html", [
-        [ "RefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", null ]
+      [ "RefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1RefreshToken.html", [
+        [ "RefreshToken", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", [
+          [ "RefreshToken", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshToken.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "RefreshTokenManagerInterface", null, [
-      [ "RefreshTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshTokenManager.html", null ]
+      [ "RefreshTokenManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1RefreshTokenManager.html", null ]
     ] ],
     [ "ResponseTypeHandlerInterface", null, [
       [ "BarResponseTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html", null ]
     ] ],
     [ "ScopeInterface", null, [
-      [ "AbstractScope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Model_1_1AbstractScope.html", [
-        [ "Scope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", null ]
+      [ "Scope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1Scope.html", [
+        [ "Scope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", [
+          [ "Scope", "classProxies_1_1____CG_____1_1Pantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1Scope.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "ScopeManagerInterface", null, [
-      [ "ScopeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeManager.html", null ]
+      [ "ScopeManager", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ScopeManager.html", null ]
     ] ],
     [ "SecurityFactoryInterface", null, [
       [ "ResourceFactory", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html", null ],

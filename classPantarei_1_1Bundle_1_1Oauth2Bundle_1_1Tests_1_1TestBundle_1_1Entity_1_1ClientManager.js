@@ -1,9 +1,0 @@
-var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager =
-[
-    [ "createClient", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html#ae7a7ca49bdbca82d65c1250afc2ca599", null ],
-    [ "deleteClient", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html#ab777adcebe24fd862dbae6ab4425f165", null ],
-    [ "findClientByClientId", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html#ace97679c570fb47d18a43c70da049434", null ],
-    [ "getClass", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html#a23ecbde357f7f6bde5a50f876334a74d", null ],
-    [ "reloadClient", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html#a1e6850eda3fbfefe7f271f5481f7c9fe", null ],
-    [ "updateClient", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientManager.html#ab575246e54ba983920209dd670f6e66b", null ]
-];

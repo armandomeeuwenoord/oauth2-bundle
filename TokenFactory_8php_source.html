@@ -130,34 +130,36 @@ $(document).ready(function(){initNavTree('TokenFactory_8php_source.html','');});
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a8264d9e9e17f72879e6c67e07656e55c">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a8264d9e9e17f72879e6c67e07656e55c">create</a>(ContainerBuilder $container, $id, $config, $userProvider, $defaultEntryPoint)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        $providerId = <span class="stringliteral">&#39;security.authentication.provider.token.&#39;</span> . $id;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $container-&gt;setDefinition($providerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;security.authentication.provider.token&#39;</span>));</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        $listenerId = <span class="stringliteral">&#39;security.authentication.listener.token.&#39;</span> . $id;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        $container-&gt;setDefinition($listenerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;security.authentication.listener.token&#39;</span>));</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> array($providerId, $listenerId, $defaultEntryPoint);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a107d1509bfad2c1b7507aac4e81be889">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a107d1509bfad2c1b7507aac4e81be889">getPosition</a>()</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;pre_auth&#39;</span>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#ad40c766ec8aced9770fe6ae269a1e781">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#ad40c766ec8aced9770fe6ae269a1e781">getKey</a>()</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;oauth2-token&#39;</span>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a23e47c742052d09273ea4ecb3743510b">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a23e47c742052d09273ea4ecb3743510b">addConfiguration</a>(NodeDefinition $node)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $container-&gt;setDefinition($providerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;security.authentication.provider.token&#39;</span>))</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            -&gt;replaceArgument(1, $id);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        $listenerId = <span class="stringliteral">&#39;security.authentication.listener.token.&#39;</span> . $id;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        $container-&gt;setDefinition($listenerId, <span class="keyword">new</span> DefinitionDecorator(<span class="stringliteral">&#39;security.authentication.listener.token&#39;</span>))</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            -&gt;replaceArgument(2, $id);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> array($providerId, $listenerId, $defaultEntryPoint);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a107d1509bfad2c1b7507aac4e81be889">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a107d1509bfad2c1b7507aac4e81be889">getPosition</a>()</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;pre_auth&#39;</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#ad40c766ec8aced9770fe6ae269a1e781">   40</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#ad40c766ec8aced9770fe6ae269a1e781">getKey</a>()</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;oauth2-token&#39;</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a23e47c742052d09273ea4ecb3743510b">   45</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1TokenFactory.html#a23e47c742052d09273ea4ecb3743510b">addConfiguration</a>(NodeDefinition $node)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_433e0636c812d63fc26193ec5b4b58ba.html">DependencyInjection</a></li><li class="navelem"><a class="el" href="dir_bcdcddf2c84d727b8b03699edd8fdafb.html">Security</a></li><li class="navelem"><a class="el" href="dir_d50bb4f9804ba2f29e9f03be9199dd17.html">Factory</a></li><li class="navelem"><a class="el" href="TokenFactory_8php.html">TokenFactory.php</a></li>
+    <li class="navelem"><a class="el" href="dir_0c1dfd16fc1f36fdf893f4a862241c02.html">DependencyInjection</a></li><li class="navelem"><a class="el" href="dir_ad88a2dcb296054c26ba88762caa74b3.html">Security</a></li><li class="navelem"><a class="el" href="dir_27c31e219ad015f0aefed1536c18b9ff.html">Factory</a></li><li class="navelem"><a class="el" href="TokenFactory_8php.html">TokenFactory.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
