@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: Entity/ModelManagerFactory.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: Entity/ModelManagerFactory.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,37 +117,37 @@ $(document).ready(function(){initNavTree('ModelManagerFactory_8php_source.html',
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Entity;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\Entity;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Doctrine\ORM\EntityManager;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Pantarei\Oauth2\Model\ModelManagerFactoryInterface;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use Pantarei\Oauth2\Exception\ServerErrorException;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use Pantarei\Oauth2\Model\ModelManagerInterface;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use PantaRei\OAuth2\Model\ModelManagerFactoryInterface;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use PantaRei\OAuth2\Exception\ServerErrorException;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use PantaRei\OAuth2\Model\ModelManagerInterface;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * Oauth2 model manager factory implemention.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * OAuth2 model manager factory implemention.</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * @author Wong Hoi Sing Edison &lt;hswong3i@pantarei-design.com&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html">ModelManagerFactory</a> <span class="keyword">implements</span> ModelManagerFactoryInterface</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html">ModelManagerFactory</a> <span class="keyword">implements</span> ModelManagerFactoryInterface</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">   26</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">   26</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#af396b09207ee0b394d26d43d2ddfd8c4">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#af396b09207ee0b394d26d43d2ddfd8c4">__construct</a>(EntityManager $em, array $models = array())</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#af396b09207ee0b394d26d43d2ddfd8c4">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#af396b09207ee0b394d26d43d2ddfd8c4">__construct</a>(EntityManager $em, array $models = array())</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a> = array();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a> = array();</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">foreach</span> ($models as $type =&gt; $model) {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            $manager = $em-&gt;getRepository($model);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">if</span> (!$manager instanceof ModelManagerInterface) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ServerErrorException();</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a>[$type] = $manager;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a>[$type] = $manager;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        $this-&gt;managers = <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        $this-&gt;managers = <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#a36678d0596f4933e4c00d74488a7f023">$managers</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1ModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">getModelManager</a>($type)</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">getModelManager</a>($type)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">if</span> (!isset($this-&gt;managers[$type])) {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> ServerErrorException();</div>

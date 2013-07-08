@@ -1,0 +1,4 @@
+var classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Exception_1_1InvalidRequestExceptionTest =
+[
+    [ "testInvalidRequestException", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Exception_1_1InvalidRequestExceptionTest.html#aa0af406a4d4013eeedfa2d1b9cd7ec9c", null ]
+];

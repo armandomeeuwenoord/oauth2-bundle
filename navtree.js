@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Pantarei/Bundle/Oauth2Bundle", "index.html", [
+  [ "PantaRei\\Bundle\\OAuth2Bundle", "index.html", [
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
@@ -27,8 +27,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AccessDeniedExceptionTest_8php.html",
-"classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Entity_1_1RefreshToken.html#aa838806337aa77f191d4bf34501324a8",
-"globals_vars.html"
+"classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381",
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

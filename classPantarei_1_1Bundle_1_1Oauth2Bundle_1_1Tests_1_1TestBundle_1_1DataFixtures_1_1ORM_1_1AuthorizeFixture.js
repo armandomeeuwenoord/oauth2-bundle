@@ -1,4 +1,0 @@
-var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1AuthorizeFixture =
-[
-    [ "load", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures_1_1ORM_1_1AuthorizeFixture.html#acb7929747e63056fbc9e2892615c18b2", null ]
-];

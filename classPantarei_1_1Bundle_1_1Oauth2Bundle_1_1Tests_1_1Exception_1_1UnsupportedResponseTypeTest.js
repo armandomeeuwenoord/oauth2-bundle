@@ -1,4 +1,0 @@
-var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1UnsupportedResponseTypeTest =
-[
-    [ "testUnsupportedResponseTypeException", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1UnsupportedResponseTypeTest.html#a1d2a6b110f45ad0178cd0b30e3b430c4", null ]
-];

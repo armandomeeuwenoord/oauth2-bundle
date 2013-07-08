@@ -1,5 +1,5 @@
 var annotated =
 [
-    [ "Pantarei", "namespacePantarei.html", "namespacePantarei" ],
+    [ "PantaRei", "namespacePantaRei.html", "namespacePantaRei" ],
     [ "AppKernel", "classAppKernel.html", "classAppKernel" ]
 ];

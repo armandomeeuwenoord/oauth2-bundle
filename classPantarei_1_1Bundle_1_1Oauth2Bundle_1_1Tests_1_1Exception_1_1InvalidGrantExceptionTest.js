@@ -1,4 +1,0 @@
-var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidGrantExceptionTest =
-[
-    [ "testInvalidGrantException", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidGrantExceptionTest.html#a6888d94af34cd2616eaca200868191e2", null ]
-];

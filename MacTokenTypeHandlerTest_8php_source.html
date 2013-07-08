@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: Tests/TokenType/MacTokenTypeHandlerTest.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: Tests/TokenType/MacTokenTypeHandlerTest.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,26 +117,26 @@ $(document).ready(function(){initNavTree('MacTokenTypeHandlerTest_8php_source.ht
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Tests\TokenType;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\Tests\TokenType;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Pantarei\Oauth2\Model\ModelManagerFactoryInterface;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Pantarei\Oauth2\TokenType\MacTokenTypeHandler;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use PantaRei\OAuth2\Model\ModelManagerFactoryInterface;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use PantaRei\OAuth2\TokenType\MacTokenTypeHandler;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use Symfony\Component\HttpFoundation\Request;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html">FooModelManagerFactory</a> <span class="keyword">implements</span> ModelManagerFactoryInterface</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html">FooModelManagerFactory</a> <span class="keyword">implements</span> ModelManagerFactoryInterface</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">getModelManager</a>($type)</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html#ac8e3d8f1fa4f395ffef14473980cd381">getModelManager</a>($type)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html">MacTokenTypeHandlerTest</a> <span class="keyword">extends</span> WebTestCase</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html">MacTokenTypeHandlerTest</a> <span class="keyword">extends</span> WebTestCase</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{<span class="comment"></span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">    /**</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">     * @expectedException \Pantarei\Oauth2\Exception\TemporarilyUnavailableException</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">     * @expectedException \PantaRei\OAuth2\Exception\TemporarilyUnavailableException</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a00251e01405264068f31aa28f29823fa">   31</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a00251e01405264068f31aa28f29823fa">testExceptionGetAccessToken</a>()</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a00251e01405264068f31aa28f29823fa">   31</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a00251e01405264068f31aa28f29823fa">testExceptionGetAccessToken</a>()</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        $request = <span class="keyword">new</span> Request();</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        $handler = <span class="keyword">new</span> MacTokenTypeHandler();</div>
@@ -144,11 +144,11 @@ $(document).ready(function(){initNavTree('MacTokenTypeHandlerTest_8php_source.ht
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">    /**</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">     * @expectedException \Pantarei\Oauth2\Exception\TemporarilyUnavailableException</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">     * @expectedException \PantaRei\OAuth2\Exception\TemporarilyUnavailableException</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a1d2274df20d70de779eb9b5a6a0df098">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a1d2274df20d70de779eb9b5a6a0df098">testExceptionCreateAccessToken</a>()</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a1d2274df20d70de779eb9b5a6a0df098">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1MacTokenTypeHandlerTest.html#a1d2274df20d70de779eb9b5a6a0df098">testExceptionCreateAccessToken</a>()</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        $modelManagerFactory = <span class="keyword">new</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html">FooModelManagerFactory</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        $modelManagerFactory = <span class="keyword">new</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TokenType_1_1FooModelManagerFactory.html">FooModelManagerFactory</a>();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        $handler = <span class="keyword">new</span> MacTokenTypeHandler();</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        $handler-&gt;createAccessToken($modelManagerFactory, <span class="stringliteral">&#39;foo&#39;</span>);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>

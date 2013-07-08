@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: Tests/TestBundle/Controller/ResourceController.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: Controller/ResourceController.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,16 +117,16 @@ $(document).ready(function(){initNavTree('ResourceController_8php_source.html','
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller.html">   12</a></span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Tests\TestBundle\Controller;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\Controller;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Component\HttpFoundation\Response;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Bundle\FrameworkBundle\Controller\Controller;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Bundle\FrameworkBundle\Controller\Controller;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Component\HttpFoundation\Request;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController.html">ResourceController</a> <span class="keyword">extends</span> Controller</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1ResourceController.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1ResourceController.html">ResourceController</a> <span class="keyword">extends</span> Controller</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController.html#a94e6920782485884eda94a1bb733de22">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1ResourceController.html#a94e6920782485884eda94a1bb733de22">echoAction</a>($echo)</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1ResourceController.html#a5dc67a0da0397f27c7f6359b717362e2">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1ResourceController.html#a5dc67a0da0397f27c7f6359b717362e2">usernameAction</a>(Request $request)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> Response($echo);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> $this-&gt;container-&gt;get(<span class="stringliteral">&#39;oauth2.resource_controller&#39;</span>)-&gt;usernameAction($request);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('ResourceController_8php_source.html','
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_33c78a012c8d08979f57a54a07694c46.html">Tests</a></li><li class="navelem"><a class="el" href="dir_b6a378b3ca13c9282405f06953414c92.html">TestBundle</a></li><li class="navelem"><a class="el" href="dir_767a4a68f0f35dfbac94be011de7faae.html">Controller</a></li><li class="navelem"><a class="el" href="ResourceController_8php.html">ResourceController.php</a></li>
+    <li class="navelem"><a class="el" href="dir_b500f500d6f9b315c95ab1cd4a3b5c0d.html">Controller</a></li><li class="navelem"><a class="el" href="ResourceController_8php.html">ResourceController.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: Tests/ResponseType/ResponseTypeHandlerFactoryTest.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: Tests/ResponseType/ResponseTypeHandlerFactoryTest.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,22 +117,22 @@ $(document).ready(function(){initNavTree('ResponseTypeHandlerFactoryTest_8php_so
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Tests\ResponseType;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\Tests\ResponseType;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Pantarei\Oauth2\Model\ModelManagerFactoryInterface;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Pantarei\Oauth2\ResponseType\ResponseTypeHandlerFactory;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use Pantarei\Oauth2\ResponseType\ResponseTypeHandlerInterface;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use Pantarei\Oauth2\TokenType\TokenTypeHandlerFactoryInterface;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use PantaRei\OAuth2\Model\ModelManagerFactoryInterface;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use PantaRei\OAuth2\ResponseType\ResponseTypeHandlerFactory;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use PantaRei\OAuth2\ResponseType\ResponseTypeHandlerInterface;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use PantaRei\OAuth2\TokenType\TokenTypeHandlerFactoryInterface;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;use Symfony\Component\HttpFoundation\Request;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;use Symfony\Component\Security\Core\SecurityContextInterface;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1FooResponseTypeHandler.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1FooResponseTypeHandler.html">FooResponseTypeHandler</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1FooResponseTypeHandler.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1FooResponseTypeHandler.html">FooResponseTypeHandler</a></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html">BarResponseTypeHandler</a> <span class="keyword">implements</span> ResponseTypeHandlerInterface</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html">BarResponseTypeHandler</a> <span class="keyword">implements</span> ResponseTypeHandlerInterface</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html#aac754b1813e4cb515a37bd85e78ba0e5">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html#aac754b1813e4cb515a37bd85e78ba0e5">handle</a>(</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html#aac754b1813e4cb515a37bd85e78ba0e5">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html#aac754b1813e4cb515a37bd85e78ba0e5">handle</a>(</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        SecurityContextInterface $securityContext,</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        Request $request,</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        ModelManagerFactoryInterface $modelManagerFactory,</div>
@@ -142,35 +142,35 @@ $(document).ready(function(){initNavTree('ResponseTypeHandlerFactoryTest_8php_so
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html">ResponseTypeHandlerFactoryTest</a> <span class="keyword">extends</span> \PHPUnit_Framework_TestCase</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html">ResponseTypeHandlerFactoryTest</a> <span class="keyword">extends</span> \PHPUnit_Framework_TestCase</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">    /**</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">     * @expectedException \Pantarei\Oauth2\Exception\UnsupportedResponseTypeException</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">     * @expectedException \PantaRei\OAuth2\Exception\UnsupportedResponseTypeException</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#a47940a7504c8784069b3599794f3fba9">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#a47940a7504c8784069b3599794f3fba9">testBadAddResponseTypeHandler</a>()</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#a47940a7504c8784069b3599794f3fba9">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#a47940a7504c8784069b3599794f3fba9">testBadAddResponseTypeHandler</a>()</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        $responseTypeHandlerFactory = <span class="keyword">new</span> ResponseTypeHandlerFactory(array(</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="stringliteral">&#39;foo&#39;</span> =&gt; <span class="stringliteral">&#39;Pantarei\\Bundle\\Oauth2Bundle\\Tests\\ResponseType\\FooResponseTypeHandler&#39;</span>,</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="stringliteral">&#39;foo&#39;</span> =&gt; <span class="stringliteral">&#39;PantaRei\\Bundle\\OAuth2Bundle\\Tests\\ResponseType\\FooResponseTypeHandler&#39;</span>,</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        ));</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        $responseTypeHandlerFactory-&gt;addResponseTypeHandler(<span class="stringliteral">&#39;foo&#39;</span>, $responseTypeHandler);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">    /**</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">     * @expectedException \Pantarei\Oauth2\Exception\UnsupportedResponseTypeException</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">     * @expectedException \PantaRei\OAuth2\Exception\UnsupportedResponseTypeException</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#aa276058005c9f69c3a70b411236678a5">   54</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#aa276058005c9f69c3a70b411236678a5">testBadGetResponseTypeHandler</a>()</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#aa276058005c9f69c3a70b411236678a5">   54</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#aa276058005c9f69c3a70b411236678a5">testBadGetResponseTypeHandler</a>()</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        $responseTypeHandlerFactory = <span class="keyword">new</span> ResponseTypeHandlerFactory(array(</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="stringliteral">&#39;bar&#39;</span> =&gt; <span class="stringliteral">&#39;Pantarei\\Bundle\\Oauth2Bundle\\Tests\\ResponseType\\BarResponseTypeHandler&#39;</span>,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="stringliteral">&#39;bar&#39;</span> =&gt; <span class="stringliteral">&#39;PantaRei\\Bundle\\OAuth2Bundle\\Tests\\ResponseType\\BarResponseTypeHandler&#39;</span>,</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        ));</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        $responseTypeHandlerFactory-&gt;getResponseTypeHandler(<span class="stringliteral">&#39;foo&#39;</span>);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#ab7c65cff01a3061fa9a4d7731f6456f3">   62</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#ab7c65cff01a3061fa9a4d7731f6456f3">testGoodGetResponseTypeHandler</a>()</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#ab7c65cff01a3061fa9a4d7731f6456f3">   62</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#ab7c65cff01a3061fa9a4d7731f6456f3">testGoodGetResponseTypeHandler</a>()</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        $responseTypeHandlerFactory = <span class="keyword">new</span> ResponseTypeHandlerFactory(array(</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="stringliteral">&#39;bar&#39;</span> =&gt; <span class="stringliteral">&#39;Pantarei\\Bundle\\Oauth2Bundle\\Tests\\ResponseType\\BarResponseTypeHandler&#39;</span>,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="stringliteral">&#39;bar&#39;</span> =&gt; <span class="stringliteral">&#39;PantaRei\\Bundle\\OAuth2Bundle\\Tests\\ResponseType\\BarResponseTypeHandler&#39;</span>,</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        ));</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        $responseTypeHandlerFactory-&gt;getResponseTypeHandler(<span class="stringliteral">&#39;bar&#39;</span>);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>

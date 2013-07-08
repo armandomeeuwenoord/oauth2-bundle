@@ -1,6 +1,0 @@
-var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest =
-[
-    [ "testBadAddResponseTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#a47940a7504c8784069b3599794f3fba9", null ],
-    [ "testBadGetResponseTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#aa276058005c9f69c3a70b411236678a5", null ],
-    [ "testGoodGetResponseTypeHandler", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1ResponseType_1_1ResponseTypeHandlerFactoryTest.html#ab7c65cff01a3061fa9a4d7731f6456f3", null ]
-];

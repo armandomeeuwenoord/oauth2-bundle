@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: Controller/TokenController.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: Controller/TokenController.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,14 +117,14 @@ $(document).ready(function(){initNavTree('TokenController_8php_source.html','');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Controller;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\Controller;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Bundle\FrameworkBundle\Controller\Controller;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Component\HttpFoundation\Request;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1TokenController.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1TokenController.html">TokenController</a> <span class="keyword">extends</span> Controller</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1TokenController.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1TokenController.html">TokenController</a> <span class="keyword">extends</span> Controller</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1TokenController.html#a6cf0b1ae55be0a12170f008c1e65b800">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Controller_1_1TokenController.html#a6cf0b1ae55be0a12170f008c1e65b800">tokenAction</a>(Request $request)</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1TokenController.html#a6cf0b1ae55be0a12170f008c1e65b800">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1TokenController.html#a6cf0b1ae55be0a12170f008c1e65b800">tokenAction</a>(Request $request)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> $this-&gt;container-&gt;get(<span class="stringliteral">&#39;oauth2.token_controller&#39;</span>)-&gt;tokenAction($request);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>

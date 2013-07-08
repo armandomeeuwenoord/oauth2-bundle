@@ -8,9 +8,9 @@ var dir_33c78a012c8d08979f57a54a07694c46 =
     [ "TestBundle", "dir_b6a378b3ca13c9282405f06953414c92.html", "dir_b6a378b3ca13c9282405f06953414c92" ],
     [ "TokenType", "dir_2f22739637c5f4c4eab88578b8f8568b.html", "dir_2f22739637c5f4c4eab88578b8f8568b" ],
     [ "AutoloadTest.php", "AutoloadTest_8php.html", [
-      [ "AutoloadTest", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1AutoloadTest.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1AutoloadTest" ]
+      [ "AutoloadTest", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1AutoloadTest.html", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1AutoloadTest" ]
     ] ],
-    [ "Oauth2Test.php", "Oauth2Test_8php.html", [
-      [ "Oauth2Test", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Oauth2Test.html", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Oauth2Test" ]
+    [ "OAuth2Test.php", "OAuth2Test_8php.html", [
+      [ "OAuth2Test", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1OAuth2Test.html", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1OAuth2Test" ]
     ] ]
 ];

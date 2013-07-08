@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: Tests/Controller/AuthorizateControllerTest.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: Tests/Controller/AuthorizateControllerTest.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,13 +117,13 @@ $(document).ready(function(){initNavTree('AuthorizateControllerTest_8php_source.
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller.html">   12</a></span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Tests\Controller;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller.html">   12</a></span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\Tests\Controller;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html">AuthorizateControllerTest</a> <span class="keyword">extends</span> WebTestCase</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html">AuthorizateControllerTest</a> <span class="keyword">extends</span> WebTestCase</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#ac501bb2ec4220ee8345701e1b8e02953">   18</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#ac501bb2ec4220ee8345701e1b8e02953">testExceptionNoResponseType</a>()</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#ac501bb2ec4220ee8345701e1b8e02953">   18</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#ac501bb2ec4220ee8345701e1b8e02953">testExceptionNoResponseType</a>()</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;1234&#39;</span>,</div>
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('AuthorizateControllerTest_8php_source.
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;invalid_request&#39;</span>, $token_response[<span class="stringliteral">&#39;error&#39;</span>]);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#a72719257f3f9fc705195f1192a9c4dbd">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#a72719257f3f9fc705195f1192a9c4dbd">testErrorBadResponseType</a>()</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#a72719257f3f9fc705195f1192a9c4dbd">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html#a72719257f3f9fc705195f1192a9c4dbd">testErrorBadResponseType</a>()</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="stringliteral">&#39;response_type&#39;</span> =&gt; <span class="stringliteral">&#39;foo&#39;</span>,</div>

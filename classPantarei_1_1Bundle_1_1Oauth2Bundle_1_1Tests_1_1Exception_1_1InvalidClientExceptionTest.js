@@ -1,4 +1,0 @@
-var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidClientExceptionTest =
-[
-    [ "testInvalidClientException", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1Exception_1_1InvalidClientExceptionTest.html#a4e7bb84167b0753ad0786f0bcb0d3cb0", null ]
-];

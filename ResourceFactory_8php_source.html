@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: DependencyInjection/Security/Factory/ResourceFactory.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: DependencyInjection/Security/Factory/ResourceFactory.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('ResourceFactory_8php_source.html','');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="namespacePantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory.html">   12</a></span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\DependencyInjection\Security\Factory;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory.html">   12</a></span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\DependencyInjection\Security\Factory;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Bundle\SecurityBundle\DependencyInjection\Security\Factory\SecurityFactoryInterface;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Component\Config\Definition\Builder\NodeDefinition;</div>
@@ -125,9 +125,9 @@ $(document).ready(function(){initNavTree('ResourceFactory_8php_source.html','');
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;use Symfony\Component\DependencyInjection\DefinitionDecorator;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;use Symfony\Component\DependencyInjection\Reference;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">ResourceFactory</a> <span class="keyword">implements</span> SecurityFactoryInterface</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html">ResourceFactory</a> <span class="keyword">implements</span> SecurityFactoryInterface</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">create</a>(ContainerBuilder $container, $id, $config, $userProvider, $defaultEntryPoint)</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a8264d9e9e17f72879e6c67e07656e55c">create</a>(ContainerBuilder $container, $id, $config, $userProvider, $defaultEntryPoint)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        $providerId = <span class="stringliteral">&#39;security.authentication.provider.resource.&#39;</span> . $id;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $container</div>
@@ -141,17 +141,17 @@ $(document).ready(function(){initNavTree('ResourceFactory_8php_source.html','');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> array($providerId, $listenerId, $defaultEntryPoint);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">getPosition</a>()</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a107d1509bfad2c1b7507aac4e81be889">getPosition</a>()</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;pre_auth&#39;</span>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">getKey</a>()</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#ad40c766ec8aced9770fe6ae269a1e781">getKey</a>()</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;oauth2-resource&#39;</span>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">addConfiguration</a>(NodeDefinition $node)</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html#a23e47c742052d09273ea4ecb3743510b">addConfiguration</a>(NodeDefinition $node)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>

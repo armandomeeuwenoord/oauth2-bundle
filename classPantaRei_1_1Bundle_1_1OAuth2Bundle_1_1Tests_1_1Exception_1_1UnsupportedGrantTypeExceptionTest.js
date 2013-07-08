@@ -1,0 +1,4 @@
+var classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Exception_1_1UnsupportedGrantTypeExceptionTest =
+[
+    [ "testUnsupportedGrantTypeException", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Exception_1_1UnsupportedGrantTypeExceptionTest.html#aa9dacaa7d27e9904d9b984ca9be6658a", null ]
+];

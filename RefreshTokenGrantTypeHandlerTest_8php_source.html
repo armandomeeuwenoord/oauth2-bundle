@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: Tests/GrantType/RefreshTokenGrantTypeHandlerTest.php Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: Tests/GrantType/RefreshTokenGrantTypeHandlerTest.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -117,15 +117,15 @@ $(document).ready(function(){initNavTree('RefreshTokenGrantTypeHandlerTest_8php_
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Pantarei\Bundle\Oauth2Bundle\Tests\GrantType;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>PantaRei\Bundle\OAuth2Bundle\Tests\GrantType;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use Symfony\Component\HttpFoundation\Request;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;use Symfony\Component\HttpFoundation\Response;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html">RefreshTokenGrantTypeHandlerTest</a> <span class="keyword">extends</span> WebTestCase</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html">RefreshTokenGrantTypeHandlerTest</a> <span class="keyword">extends</span> WebTestCase</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#accb7da3200b6445d5ded32e79ae20d8d">   20</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#accb7da3200b6445d5ded32e79ae20d8d">testErrorRefreshTokenNoToken</a>()</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#accb7da3200b6445d5ded32e79ae20d8d">   20</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#accb7da3200b6445d5ded32e79ae20d8d">testErrorRefreshTokenNoToken</a>()</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="stringliteral">&#39;grant_type&#39;</span> =&gt; <span class="stringliteral">&#39;refresh_token&#39;</span>,</div>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('RefreshTokenGrantTypeHandlerTest_8php_
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;invalid_request&#39;</span>, $token_response[<span class="stringliteral">&#39;error&#39;</span>]);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a87c21c3a9f3690d2dfecd24081da9c04">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a87c21c3a9f3690d2dfecd24081da9c04">testErrorRefreshTokenBadScope</a>()</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a87c21c3a9f3690d2dfecd24081da9c04">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a87c21c3a9f3690d2dfecd24081da9c04">testErrorRefreshTokenBadScope</a>()</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="stringliteral">&#39;grant_type&#39;</span> =&gt; <span class="stringliteral">&#39;refresh_token&#39;</span>,</div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('RefreshTokenGrantTypeHandlerTest_8php_
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;invalid_scope&#39;</span>, $token_response[<span class="stringliteral">&#39;error&#39;</span>]);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aee2b61c9a934f05a36f3d2f2228f708b">   57</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aee2b61c9a934f05a36f3d2f2228f708b">testErrorRefreshTokenBadScopeFormat</a>()</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aee2b61c9a934f05a36f3d2f2228f708b">   57</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aee2b61c9a934f05a36f3d2f2228f708b">testErrorRefreshTokenBadScopeFormat</a>()</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="stringliteral">&#39;grant_type&#39;</span> =&gt; <span class="stringliteral">&#39;refresh_token&#39;</span>,</div>
@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('RefreshTokenGrantTypeHandlerTest_8php_
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;invalid_request&#39;</span>, $token_response[<span class="stringliteral">&#39;error&#39;</span>]);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#ab6c11521f41f5bbfd74f8e67d5a17a02">   76</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#ab6c11521f41f5bbfd74f8e67d5a17a02">testExceptionRefreshTokenBadClientId</a>()</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#ab6c11521f41f5bbfd74f8e67d5a17a02">   76</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#ab6c11521f41f5bbfd74f8e67d5a17a02">testExceptionRefreshTokenBadClientId</a>()</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="stringliteral">&#39;grant_type&#39;</span> =&gt; <span class="stringliteral">&#39;refresh_token&#39;</span>,</div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('RefreshTokenGrantTypeHandlerTest_8php_
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;invalid_grant&#39;</span>, $token_response[<span class="stringliteral">&#39;error&#39;</span>]);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aed02640240654a3835a0655e0fcd6557">   95</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aed02640240654a3835a0655e0fcd6557">testExceptionRefreshTokenExpired</a>()</div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aed02640240654a3835a0655e0fcd6557">   95</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#aed02640240654a3835a0655e0fcd6557">testExceptionRefreshTokenExpired</a>()</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    {</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="stringliteral">&#39;grant_type&#39;</span> =&gt; <span class="stringliteral">&#39;refresh_token&#39;</span>,</div>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('RefreshTokenGrantTypeHandlerTest_8php_
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;invalid_grant&#39;</span>, $token_response[<span class="stringliteral">&#39;error&#39;</span>]);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno"><a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a12ed1636705ad0b36cc9940c789824f4">  114</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a12ed1636705ad0b36cc9940c789824f4">testGoodRefreshToken</a>()</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a12ed1636705ad0b36cc9940c789824f4">  114</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1GrantType_1_1RefreshTokenGrantTypeHandlerTest.html#a12ed1636705ad0b36cc9940c789824f4">testGoodRefreshToken</a>()</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        $parameters = array(</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="stringliteral">&#39;grant_type&#39;</span> =&gt; <span class="stringliteral">&#39;refresh_token&#39;</span>,</div>

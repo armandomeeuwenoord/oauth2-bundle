@@ -1,6 +1,0 @@
-var classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1ClientCredentialsGrantTypeHandlerTest =
-[
-    [ "testErrorClientCredBadScope", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1ClientCredentialsGrantTypeHandlerTest.html#afc29e4d4d97ca759d966a570a7ad9e5f", null ],
-    [ "testErrorClientCredBadScopeFormat", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1ClientCredentialsGrantTypeHandlerTest.html#afdc99f063fc26023f0719c5febb50d97", null ],
-    [ "testGoodClientCred", "classPantarei_1_1Bundle_1_1Oauth2Bundle_1_1Tests_1_1GrantType_1_1ClientCredentialsGrantTypeHandlerTest.html#af4f5f4cdd42fcabf959645b21894d0dc", null ]
-];

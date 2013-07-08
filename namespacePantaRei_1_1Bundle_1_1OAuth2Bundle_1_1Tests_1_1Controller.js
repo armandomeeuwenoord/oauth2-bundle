@@ -1,0 +1,5 @@
+var namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller =
+[
+    [ "AuthorizateControllerTest", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest.html", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1AuthorizateControllerTest" ],
+    [ "TokenControllerTest", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1TokenControllerTest.html", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller_1_1TokenControllerTest" ]
+];

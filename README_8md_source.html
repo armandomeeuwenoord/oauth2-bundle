@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>Pantarei/Bundle/Oauth2Bundle: README.md Source File</title>
+<title>PantaRei\Bundle\OAuth2Bundle: README.md Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pantarei/Bundle/Oauth2Bundle
+   <div id="projectname">PantaRei\Bundle\OAuth2Bundle
    &#160;<span id="projectnumber">1.0.x</span>
    </div>
   </td>
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('README_8md.html','');});
 <div class="title">README.md</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="README_8md.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;Pantarei/Bundle/Oauth2Bundle</div>
+<a href="README_8md.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;PantaRei\Bundle\OAuth2Bundle</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;============================</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;[![Build</div>
@@ -118,9 +118,9 @@ $(document).ready(function(){initNavTree('README_8md.html','');});
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;[![Total</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;Downloads](https:<span class="comment">//poser.pugx.org/pantarei/oauth2-bundle/downloads.png)](https://packagist.org/packages/pantarei/oauth2-bundle)</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;[Pantarei/Bundle/Oauth2Bundle](https:<span class="comment">//github.com/pantarei/oauth2-bundle)</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;[PantaRei\Bundle\OAuth2Bundle](https:<span class="comment">//github.com/pantarei/oauth2-bundle)</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;is a Symfony2 Bundle, which integrate</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;[Pantarei/Oauth2](https:<span class="comment">//github.com/pantarei/oauth2) as easy as</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;[PantaRei\OAuth2](https:<span class="comment">//github.com/pantarei/oauth2) as easy as</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;possible into your [Symfony2](http:<span class="comment">//www.symfony.com) Project.</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;Installation</div>
@@ -134,14 +134,14 @@ $(document).ready(function(){initNavTree('README_8md.html','');});
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;      }</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;You also have to add `Oauth2Bundle` to your `<a class="code" href="classAppKernel.html">AppKernel</a>.php`:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;You also have to add `OAuth2Bundle` to your `<a class="code" href="classAppKernel.html">AppKernel</a>.php`:</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">class </span><a class="code" href="classAppKernel.html">AppKernel</a> <span class="keyword">extends</span> Kernel</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classAppKernel.html#a8dd304e2eccfbe88dd648389c7d4f5eb">registerBundles</a>()</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            $bundles = array(</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <span class="keyword">new</span> Pantarei\Bundle\Oauth2Bundle\Oauth2Bundle()</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <span class="keyword">new</span> PantaRei\Bundle\OAuth2Bundle\OAuth2Bundle()</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            );</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">return</span> $bundles;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
