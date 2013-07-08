@@ -8,6 +8,7 @@ var classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResp
     [ "testExceptionCodeNoClientId", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResponseTypeHandlerTest.html#aae0ea0995e39901884923829d3cd2aee", null ],
     [ "testExceptionCodeNoSavedNoPassedRedirectUri", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResponseTypeHandlerTest.html#aee063d20c684d85e043832c00f7fedb7", null ],
     [ "testGoodCode", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResponseTypeHandlerTest.html#ab4ac43f60c050b4b3a39544e3aab89c6", null ],
+    [ "testGoodCodeFormSubmit", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResponseTypeHandlerTest.html#abf28d4d2c892702194ab1ff097bb60df", null ],
     [ "testGoodCodeNoPassedRedirectUri", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResponseTypeHandlerTest.html#a74fd9b0621967ee9f9097c2ce513d5a6", null ],
     [ "testGoodCodeNoStoredRedirectUri", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1CodeResponseTypeHandlerTest.html#a4ae583abcc7af2eaa5139fcc8a4468b4", null ]
 ];

@@ -69,7 +69,8 @@ var hierarchy =
     [ "Controller", null, [
       [ "AuthorizeController", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1AuthorizeController.html", null ],
       [ "ResourceController", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1ResourceController.html", null ],
-      [ "TokenController", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1TokenController.html", null ]
+      [ "TokenController", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller_1_1TokenController.html", null ],
+      [ "SecurityController", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1SecurityController.html", null ]
     ] ],
     [ "EntityRepository", null, [
       [ "AccessTokenManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AccessTokenManager.html", null ],

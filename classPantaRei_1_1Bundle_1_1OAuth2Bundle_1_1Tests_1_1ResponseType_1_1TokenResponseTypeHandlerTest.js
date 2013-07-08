@@ -8,6 +8,7 @@ var classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1TokenRes
     [ "testExceptionTokenNoClientId", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1TokenResponseTypeHandlerTest.html#a803cc46f9362ff5c91b707da46b172f1", null ],
     [ "testExceptionTokenNoSavedNoPassedRedirectUri", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1TokenResponseTypeHandlerTest.html#a1f649926db817498f8ddf78542e92e42", null ],
     [ "testGoodToken", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1TokenResponseTypeHandlerTest.html#a4466bb218177dca092ee021bf6deae1b", null ],
+    [ "testGoodTokenFormSubmit", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1TokenResponseTypeHandlerTest.html#a42eea5cf731ed70181676468086ac184", null ],
     [ "testGoodTokenNoPassedRedirectUri", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1TokenResponseTypeHandlerTest.html#af1ae8513961b13f7a01826e30ef326c7", null ],
     [ "testGoodTokenNoStoredRedirectUri", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1TokenResponseTypeHandlerTest.html#a3cd896a3a765572d2ba88d3799e405f1", null ]
 ];

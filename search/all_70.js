@@ -2,6 +2,7 @@ var searchData=
 [
   ['bundle',['Bundle',['../namespacePantaRei_1_1Bundle.html',1,'PantaRei']]],
   ['controller',['Controller',['../namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Controller.html',1,'PantaRei::Bundle::OAuth2Bundle']]],
+  ['controller',['Controller',['../namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Controller.html',1,'PantaRei::Bundle::OAuth2Bundle::Tests::TestBundle']]],
   ['controller',['Controller',['../namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1Controller.html',1,'PantaRei::Bundle::OAuth2Bundle::Tests']]],
   ['datafixtures',['DataFixtures',['../namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1DataFixtures.html',1,'PantaRei::Bundle::OAuth2Bundle::Tests::TestBundle']]],
   ['dependencyinjection',['DependencyInjection',['../namespacePantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection.html',1,'PantaRei::Bundle::OAuth2Bundle']]],
