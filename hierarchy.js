@@ -25,7 +25,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "AccessTokenManagerInterface", null, [
-      [ "AccessTokenManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AccessTokenManager.html", [
+      [ "AccessTokenRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AccessTokenRepository.html", [
         [ "AccessTokenRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AccessTokenRepository.html", null ]
       ] ]
     ] ],
@@ -35,7 +35,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "AuthorizeManagerInterface", null, [
-      [ "AuthorizeManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AuthorizeManager.html", [
+      [ "AuthorizeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AuthorizeRepository.html", [
         [ "AuthorizeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1AuthorizeRepository.html", null ]
       ] ]
     ] ],
@@ -49,7 +49,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "ClientManagerInterface", null, [
-      [ "ClientManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ClientManager.html", [
+      [ "ClientRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ClientRepository.html", [
         [ "ClientRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ClientRepository.html", null ]
       ] ]
     ] ],
@@ -59,7 +59,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "CodeManagerInterface", null, [
-      [ "CodeManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1CodeManager.html", [
+      [ "CodeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1CodeRepository.html", [
         [ "CodeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1CodeRepository.html", null ]
       ] ]
     ] ],
@@ -73,14 +73,14 @@ var hierarchy =
       [ "SecurityController", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Controller_1_1SecurityController.html", null ]
     ] ],
     [ "EntityRepository", null, [
-      [ "AccessTokenManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AccessTokenManager.html", null ],
-      [ "AuthorizeManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AuthorizeManager.html", null ],
-      [ "ClientManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ClientManager.html", null ],
-      [ "CodeManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1CodeManager.html", null ],
-      [ "RefreshTokenManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1RefreshTokenManager.html", [
+      [ "AccessTokenRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AccessTokenRepository.html", null ],
+      [ "AuthorizeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1AuthorizeRepository.html", null ],
+      [ "ClientRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ClientRepository.html", null ],
+      [ "CodeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1CodeRepository.html", null ],
+      [ "RefreshTokenRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1RefreshTokenRepository.html", [
         [ "RefreshTokenRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1RefreshTokenRepository.html", null ]
       ] ],
-      [ "ScopeManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ScopeManager.html", [
+      [ "ScopeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ScopeRepository.html", [
         [ "ScopeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1TestBundle_1_1Entity_1_1ScopeRepository.html", null ]
       ] ]
     ] ],
@@ -111,7 +111,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "RefreshTokenManagerInterface", null, [
-      [ "RefreshTokenManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1RefreshTokenManager.html", null ]
+      [ "RefreshTokenRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1RefreshTokenRepository.html", null ]
     ] ],
     [ "ResponseTypeHandlerInterface", null, [
       [ "BarResponseTypeHandler", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Tests_1_1ResponseType_1_1BarResponseTypeHandler.html", null ]
@@ -122,7 +122,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "ScopeManagerInterface", null, [
-      [ "ScopeManager", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ScopeManager.html", null ]
+      [ "ScopeRepository", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1Entity_1_1ScopeRepository.html", null ]
     ] ],
     [ "SecurityFactoryInterface", null, [
       [ "ResourceFactory", "classPantaRei_1_1Bundle_1_1OAuth2Bundle_1_1DependencyInjection_1_1Security_1_1Factory_1_1ResourceFactory.html", null ],
