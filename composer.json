@@ -26,7 +26,7 @@
     "minimum-stability": "dev",
     "name": "pantarei/oauth2-bundle",
     "require": {
-        "pantarei/oauth2": "1.0.*@dev",
+        "pantarei/oauth2": "dev-master",
         "php": ">=5.3.3",
         "symfony/framework-bundle": "~2.3",
         "symfony/security-bundle": "~2.3"
